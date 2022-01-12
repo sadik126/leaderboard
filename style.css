@@ -177,28 +177,30 @@ height: 117px;
 
 
 @media only screen and (max-width:688px) {
-  .container, .navber{
+  .container{
       width: 100%;
       height: 100%;
   }
 
   .navber{
+      width: 100%;
       height: 400px;
       align-items: center;
-    justify-content: center;
+      justify-content: center;
       
   }
 
   
 
   .menu ul{
+     
       margin-top: 20px;
       
   }
 
  
   
-  .player, .blog, .course, .menu{
+  .player, .blog, .course, .navber li{
       flex-direction: column;
   }
 
@@ -212,7 +214,7 @@ height: 117px;
       margin-top: -55px;
   }
   
-    .players, .blogs ,.courses{
+    .players, .blogs ,.courses,.menu li{
        grid-template-columns: repeat(1, 1fr);
    }
 
