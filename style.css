@@ -4,19 +4,37 @@
 
 .navber{
     height: 94px;
-    background-color: #899fc1;
+    background-color: #021025bc;
     border-radius: 5px;
+    display: flex;
+   
+    
+    
+}
+
+.menu{
+    padding-left: 690px;
+    padding-top: 15px;
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+    color: whitesmoke;
     
 }
 
 .icon{
     padding-top: 26px;
+    padding-left: 30px;
 }
 
 .icon div{
     font-size: 30px;
     font-weight: 700;
-    color: rgb(245, 4, 4);
+    color: #f1ebeb;
     font-family: 'Poppins', sans-serif;
     /* margin-top: 26px; */
 }
