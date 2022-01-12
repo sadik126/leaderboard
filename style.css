@@ -135,8 +135,18 @@ height: 117px;
 
 
 @media only screen and (max-width:688px) {
-   .players{
-       background-color: rgb(233, 233, 52);
+  .container{
+      width: 100%;
+  }
+  
+  
+    .players{
+
+       
        grid-template-columns: repeat(1,1fr);
+   }
+
+   .blogs,.courses{
+       display: none;
    }
 }
