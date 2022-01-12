@@ -17,6 +17,7 @@
 
 .player{
     display: flex;
+    
     align-items: center;
     /* justify-content: center; */
 }
@@ -35,7 +36,8 @@ hr{
 main{
     background-color: #E5E5E5;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
@@ -52,6 +54,8 @@ main{
     width: 870px;
     height: 679px;
     padding: 30px 30px 30px 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 .topblogs{
@@ -91,4 +95,9 @@ height: 117px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap:26px;
+}
+
+.banner img{
+    width: 224px;
+    height: 104px;
 }
