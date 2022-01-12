@@ -182,6 +182,20 @@ height: 117px;
       height: 100%;
   }
 
+  .navber{
+      height: 400px;
+      align-items: center;
+    justify-content: center;
+      
+  }
+
+  
+
+  .menu ul{
+      margin-top: 20px;
+      
+  }
+
  
   
   .player, .blog, .course, .menu{
