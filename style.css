@@ -139,6 +139,9 @@ height: 117px;
       width: 100%;
   }
   
+  .player{
+      flex-direction: column;
+  }
   
     .players{
 
