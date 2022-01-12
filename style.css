@@ -17,6 +17,10 @@
     padding-top: 15px;
 }
 
+.menu li:hover{
+    color: black;
+}
+
 .menu li{
     list-style: none;
     float: left;
@@ -173,12 +177,14 @@ height: 117px;
 
 
 @media only screen and (max-width:688px) {
-  .container{
+  .container, .navber{
       width: 100%;
       height: 100%;
   }
+
+ 
   
-  .player, .blog, .course{
+  .player, .blog, .course, .menu{
       flex-direction: column;
   }
 
