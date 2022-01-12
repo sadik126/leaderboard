@@ -101,3 +101,11 @@ height: 117px;
     width: 224px;
     height: 104px;
 }
+
+.rating i{
+    color: goldenrod;
+}
+
+.course-info{
+    display: flex;
+}
