@@ -130,3 +130,13 @@ height: 117px;
 .author{
     color: indianred;
 }
+
+
+
+
+@media only screen and (max-width:688px) {
+   .players{
+       background-color: rgb(233, 233, 52);
+       grid-template-columns: repeat(1,1fr);
+   }
+}
